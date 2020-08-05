@@ -1,0 +1,110 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,900;1,500&display=swap');
+</style>
+
+h1 {
+color: rgba(0, 0, 0, 07);
+font-family: Arial, Helvetica, sans-serif ;
+font-size: 30px;
+font-weight: 900;
+}
+
+
+h2 {
+    color:#6B72E1;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    }
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    padding: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(128, 164, 237);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+#socials a {
+    color: rgba(0, 0, 0, 0.7);
+    font-size: 70px;
+}
+
+.container {
+    margin: 0 auto;
+    width: 600px;
+    margin: 40px auto;
+}
+
+.card {
+    background-color:rgba(85, 83, 83, 0.2);
+    padding: 40px;
+    box-shadow: 0px 7px 15px rgba(0,0,0,0.2);
+    border-radius: 8px;
+    margin: 20px 0px;
+    text-align: center;
+}
+
+h1 {
+    color: rgb(0, 0, 0, 0.7);
+    font-family: Arial, Helvetica, sans-serif ;
+    font-size: 30px;
+    font-weight: 900;
+    }
+
+#img-circle {
+    border-radius: 50%;
+}
+
+.btn-blue {
+    background-color: #6B72E1;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 4px;
+}
+
+.btn-blue:hover {
+    color: rgb(0,0,0);
+  }
+
+.list-inline li {
+    display: inline;
+    color: rgb(146, 170, 131);
+    padding: 10px;
+    border-right: 10px;
+}
+
+ul.list-inline {
+    padding-right: 40px;
+}
+
+#socials a:hover {
+    color: rgb(0,0,0);
+  }
+
+  @media (max-width: 960px) {
+    /* For a screen < 960px, this CSS will be read */
+    .container {
+      width: 700px;
+    }
+  }
+
+  @media (max-width: 720px) {
+    /* For a screen < 720px, this CSS will be read */
+    .container {
+      width: 500px;
+    }
+  }
+
+  @media (max-width: 540px) {
+    /* For a screen < 540px, this CSS will be read */
+    .container {
+      width: 300px;
+    }
+  }
